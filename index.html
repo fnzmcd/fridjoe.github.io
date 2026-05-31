@@ -24,50 +24,70 @@
         }
 
         .container {
-            display: flex;
-            flex-direction: column;
-            gap: 18px;
+            line-height: 2.2;
         }
 
         h1 {
             font-size: 5rem;
             font-weight: 300;
             margin-bottom: 30px;
+            letter-spacing: 2px;
         }
 
-        .social {
-            font-size: 1.4rem;
-            font-weight: 300;
+        a {
+            color: #000;
+            text-decoration: none;
+            font-size: 1.3rem;
         }
 
-        .contact-title {
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact {
             margin-top: 20px;
-            font-size: 1.4rem;
-        }
-
-        .email {
-            font-size: 1.2rem;
         }
 
         .coming-soon {
             margin-top: 40px;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             letter-spacing: 8px;
         }
     </style>
 </head>
 <body>
     <div class="container">
+
         <h1>fird joe</h1>
 
-        <div class="social">YouTube fridjoe</div>
-        <div class="social">Instagram _fridjoe</div>
-        <div class="social">X _fridjoe</div>
+        <p>
+            <a href="https://www.youtube.com/@fridjoe" target="_blank">
+                YouTube fridjoe
+            </a>
+        </p>
 
-        <div class="contact-title">Contact</div>
-        <div class="email">fridjamesjoe@gmail.com</div>
+        <p>
+            <a href="https://www.instagram.com/_fridjoe/" target="_blank">
+                Instagram _fridjoe
+            </a>
+        </p>
 
-        <div class="coming-soon">COMING SOON</div>
+        <p>
+            <a href="https://x.com/_fridjoe" target="_blank">
+                X _fridjoe
+            </a>
+        </p>
+
+        <div class="contact">
+            <a href="mailto:fridjamesjoe@gmail.com">
+                Contact fridjamesjoe@gmail.com
+            </a>
+        </div>
+
+        <div class="coming-soon">
+            COMING SOON
+        </div>
+
     </div>
 </body>
 </html>
