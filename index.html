@@ -1,93 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fird joe</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>frid joe</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: #ffffff;
+      color: #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
 
-        body {
-            background: #ffffff;
-            color: #000000;
-            font-family: Arial, Helvetica, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
+    .title {
+      font-size: 96px;
+      font-weight: 700;
+      letter-spacing: -2px;
+      margin-bottom: 28px;
+    }
 
-        .container {
-            line-height: 2.2;
-        }
+    .subtitle {
+      font-size: 22px;
+      letter-spacing: 10px;
+      font-weight: 400;
+    }
 
-        h1 {
-            font-size: 5rem;
-            font-weight: 300;
-            margin-bottom: 30px;
-            letter-spacing: 2px;
-        }
+    @media (max-width: 600px) {
+      .title {
+        font-size: 56px;
+      }
 
-        a {
-            color: #000;
-            text-decoration: none;
-            font-size: 1.3rem;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .contact {
-            margin-top: 20px;
-        }
-
-        .coming-soon {
-            margin-top: 40px;
-            font-size: 1.1rem;
-            letter-spacing: 8px;
-        }
-    </style>
+      .subtitle {
+        font-size: 14px;
+        letter-spacing: 6px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <div class="container">
-
-        <h1>fird joe</h1>
-
-        <p>
-            <a href="https://www.youtube.com/@fridjoe" target="_blank">
-                YouTube fridjoe
-            </a>
-        </p>
-
-        <p>
-            <a href="https://www.instagram.com/_fridjoe/" target="_blank">
-                Instagram _fridjoe
-            </a>
-        </p>
-
-        <p>
-            <a href="https://x.com/_fridjoe" target="_blank">
-                X _fridjoe
-            </a>
-        </p>
-
-        <div class="contact">
-            <a href="mailto:fridjamesjoe@gmail.com">
-                Contact fridjamesjoe@gmail.com
-            </a>
-        </div>
-
-        <div class="coming-soon">
-            COMING SOON
-        </div>
-
-    </div>
+  <main>
+    <div class="title">frid joe</div>
+    <div class="subtitle">coming soon</div>
+  </main>
 </body>
 </html>
